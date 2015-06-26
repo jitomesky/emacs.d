@@ -6,3 +6,4 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
 
+(require 'multiple-cursors)
