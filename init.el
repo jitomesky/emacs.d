@@ -20,3 +20,5 @@
 (define-key region-bindings-mode-map "S" 'mc/skip-to-previous-like-this)
 (define-key region-bindings-mode-map ";" 'multiple-cursors-mode)
 
+(setq make-backup-files nil)
+
