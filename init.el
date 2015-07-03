@@ -18,6 +18,7 @@
 (define-key region-bindings-mode-map "U" 'mc/unmark-previous-like-this)
 (define-key region-bindings-mode-map "s" 'mc/skip-to-next-like-this)
 (define-key region-bindings-mode-map "S" 'mc/skip-to-previous-like-this)
+(define-key region-bindings-mode-map "l" 'mc/edit-line)
 (define-key region-bindings-mode-map ";" 'multiple-cursors-mode)
 
 (setq make-backup-files nil)
